@@ -56,12 +56,10 @@
 		0ACB684D24E9C14700425C51 /* 10 - FlipImage */ = {
 			isa = PBXGroup;
 			children = (
-				0ACB684E24E9C14700425C51 /* AppDelegate.swift */,
-				0ACB685024E9C14700425C51 /* SceneDelegate.swift */,
-				0ACB685224E9C14700425C51 /* ContentView.swift */,
 				0ACB685424E9C14800425C51 /* Assets.xcassets */,
-				0ACB685924E9C14800425C51 /* LaunchScreen.storyboard */,
 				0ACB685C24E9C14800425C51 /* Info.plist */,
+				0ACB686224E9C15A00425C51 /* Delegate */,
+				0ACB686324E9C16000425C51 /* View */,
 				0ACB685624E9C14800425C51 /* Preview Content */,
 			);
 			path = "10 - FlipImage";
@@ -73,6 +71,24 @@
 				0ACB685724E9C14800425C51 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0ACB686224E9C15A00425C51 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				0ACB684E24E9C14700425C51 /* AppDelegate.swift */,
+				0ACB685024E9C14700425C51 /* SceneDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		0ACB686324E9C16000425C51 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0ACB685924E9C14800425C51 /* LaunchScreen.storyboard */,
+				0ACB685224E9C14700425C51 /* ContentView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
