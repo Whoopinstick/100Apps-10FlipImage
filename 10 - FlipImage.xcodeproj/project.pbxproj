@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		0A39D58B24F1C3EC0014FCBE /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A39D58A24F1C3EC0014FCBE /* ImagePicker.swift */; };
-		0A39D58D24F1C4350014FCBE /* ImageSaver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A39D58C24F1C4350014FCBE /* ImageSaver.swift */; };
 		0ACB684F24E9C14700425C51 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACB684E24E9C14700425C51 /* AppDelegate.swift */; };
 		0ACB685124E9C14700425C51 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACB685024E9C14700425C51 /* SceneDelegate.swift */; };
 		0ACB685324E9C14700425C51 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACB685224E9C14700425C51 /* ContentView.swift */; };
@@ -19,7 +18,6 @@
 
 /* Begin PBXFileReference section */
 		0A39D58A24F1C3EC0014FCBE /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
-		0A39D58C24F1C4350014FCBE /* ImageSaver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSaver.swift; sourceTree = "<group>"; };
 		0ACB684B24E9C14700425C51 /* 10 - FlipImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "10 - FlipImage.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0ACB684E24E9C14700425C51 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0ACB685024E9C14700425C51 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -45,7 +43,6 @@
 			isa = PBXGroup;
 			children = (
 				0A39D58A24F1C3EC0014FCBE /* ImagePicker.swift */,
-				0A39D58C24F1C4350014FCBE /* ImageSaver.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -178,7 +175,6 @@
 			files = (
 				0ACB684F24E9C14700425C51 /* AppDelegate.swift in Sources */,
 				0A39D58B24F1C3EC0014FCBE /* ImagePicker.swift in Sources */,
-				0A39D58D24F1C4350014FCBE /* ImageSaver.swift in Sources */,
 				0ACB685124E9C14700425C51 /* SceneDelegate.swift in Sources */,
 				0ACB685324E9C14700425C51 /* ContentView.swift in Sources */,
 			);
